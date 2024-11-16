@@ -421,6 +421,8 @@ export async function parsePromptScript(
             c.checkString("title")
             c.checkString("description")
             c.checkString("model")
+            c.checkString("smallModel")
+            c.checkString("visionModel")
             c.checkString("responseType")
             c.checkJSONSchema("responseSchema")
 
